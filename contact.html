@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jacob Trinh">
+    <meta name="description" content="Contact Page">
+    <title>Contact Page!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me!</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#about">About Me</a>
+                </li>
+                <li>
+                    <a href="programming.html">Programming Journey</a>
+                </li>
+                <li>
+                    <a href="poker.html">Poker Journey</a>
+                </li>
+                <li>
+                    <a href="ratings.html">Random Ratings</a>
+                </li>
+            </ul>
+            <figure>
+                <img src="images/archer.jpg" alt="A picture of me!" title="Which one is me?" width="400" height="267">
+                <br>
+                <audio autoplay controls muted loop src="shibuya.mp3"> 
+            </figure>
+
+        </nav>
+    </header>
+
+    <hr>
+<main>
+    <section>
+    <h2>My Contact Form</h2>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Jacob Trinh" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="jacobtrinh@gmail.com" required>
+            </p>
+            <p>
+                <label for="phone">Phone Number:</label>
+                <input type="phone" name="phone" id="phone" placeholder="(123)-456-7890" required>
+            </p>
+            <p>
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+</main>
+<hr>
+<footer>
+    <p>Copyright &copy; Jacob's Personal Website</p>
+</footer>
+
+
+</body>
+</html>
